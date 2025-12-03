@@ -1,7 +1,5 @@
 #![allow(unused_variables)]
 
-use core::slice;
-
 fn next_power_of_10(input: u64) -> u64 {
     if input == 0 {
         return 1;
