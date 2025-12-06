@@ -1,4 +1,5 @@
 #![allow(unused_variables)]
+#![allow(dead_code)]
 
 pub fn part1(input: &str) -> u32 {
     let mut total = 0;

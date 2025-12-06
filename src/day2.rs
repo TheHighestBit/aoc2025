@@ -1,4 +1,5 @@
 #![allow(unused_variables)]
+#![allow(dead_code)]
 
 fn next_power_of_10(input: u64) -> u64 {
     if input == 0 {

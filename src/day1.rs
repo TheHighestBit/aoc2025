@@ -1,3 +1,6 @@
+#![allow(unused_variables)]
+#![allow(dead_code)]
+
 pub fn part1(input: &str) -> i32 {
     let mut dial = 50;
     let mut total_zeros = 0;
