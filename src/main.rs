@@ -8,6 +8,7 @@ mod day5;
 mod day6;
 mod day7;
 mod day8;
+mod day9;
 
 fn read_input() -> String {
     fs::read_to_string("src/input.txt").unwrap()
@@ -16,6 +17,6 @@ fn read_input() -> String {
 fn main() {
     let input = read_input();
 
-    println!("Part1: {}", day8::part1(&input));
-    println!("Part2: {}", day8::part2(&input));
+    println!("Part1: {}", day9::part1(&input));
+    println!("Part2: {}", day9::part2(&input));
 }
