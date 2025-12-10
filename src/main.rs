@@ -1,6 +1,7 @@
 use std::fs;
 
 mod day1;
+mod day10;
 mod day2;
 mod day3;
 mod day4;
@@ -17,6 +18,6 @@ fn read_input() -> String {
 fn main() {
     let input = read_input();
 
-    println!("Part1: {}", day9::part1(&input));
-    println!("Part2: {}", day9::part2(&input));
+    println!("Part1: {}", day10::part1(&input));
+    println!("Part2: {}", day10::part2(&input));
 }
